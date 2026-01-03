@@ -1,5 +1,5 @@
 import { useState } from "react"
-function App(){
+function Todolist(){
    const [tasks,setTask]=useState([])
     const [text,setText]=useState([""])
   const addTask=()=>{
@@ -27,4 +27,4 @@ function App(){
     </>
   )
 }
-export default App
+export default Todolist
